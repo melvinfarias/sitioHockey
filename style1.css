@@ -1,0 +1,24 @@
+h1{
+    background-image: url(./img/banner.jpg);
+    color: black;
+    text-align: center;
+    height: 400px;
+    margin-top: 2px;
+    font-size: 60px;
+    margin-top: 20px;
+    
+}
+#banner{
+    height: 400px;
+    width: 1165px;
+}
+#logo{
+    height: 150px;
+    width: 150px;
+    margin-left: 1000px;
+    margin-top: 0px;
+}
+.links{
+    padding: 0% 0% 0% 20%;
+    margin-top: 0%;
+}
