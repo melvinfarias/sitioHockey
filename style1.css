@@ -1,10 +1,10 @@
 h1{
     background-image: url(./img/banner.jpg);
-    color: black;
+    color: red;
     text-align: center;
     height: 400px;
     margin-top: 2px;
-    font-size: 60px;
+    font-size: 80px;
     margin-top: 20px;
     
 }
