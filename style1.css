@@ -1,24 +1,49 @@
-h1{
-    background-image: url(./img/banner.jpg);
-    color: red;
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.titulo-principal{
+    color:#ecab0f;
     text-align: center;
-    height: 400px;
-    margin-top: 2px;
-    font-size: 80px;
-    margin-top: 20px;
-    
+    font-size: 60px;
+    background-color: black;
 }
-#banner{
-    height: 400px;
-    width: 1165px;
+.banner{
+    height: 500px;
+    width: 1195px;
+    background-position: center;
 }
-#logo{
-    height: 150px;
-    width: 150px;
-    margin-left: 1000px;
-    margin-top: 0px;
+.subtitulo{
+    height: 50px;
+    width: 1190px;
+    color: white;   
+    text-align: center;
+    font-size: 35px;
+    background-color: black;
 }
 .links{
-    padding: 0% 0% 0% 20%;
-    margin-top: 0%;
+    background-color: red;
+    display: inline-block;
+}
+nav a{
+    display: block;
+}
+#logo{
+    height: 200px;
+    width: 200px;
+    left: 950px;
+    /*display: inline-block;*/
+    position: absolute;  z-index:2; left:1em; top:550px; opacity:5;
+    
+}
+.info{
+    background-color: blue;
+    display: inline-block;
+}
+section h4, p{
+    display: block;
+    margin: 5px;
+
 }

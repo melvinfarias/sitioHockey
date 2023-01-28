@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+.titulo-principal{
+    color:whitesmoke;
+    font-size: 50px;
+    background-color: gray;
+}
+.banner{
+    height: 500px;
+    width: 1195px;
+    background-position: center;
+}
+.subtitulo{
+    height: 50px;
+    width: 1190px;
+    color: white;   
+    text-align: center;
+    font-size: 35px;
+    background-color: gray;
+    display: block;
+}
+#logo{
+    height: 200px;
+    width: 200px;
+    margin-left: 950px;
+    display: inline-block;
+    position: absolute;  z-index:2; left:1em; top:550px; opacity:5;
+    
+}
