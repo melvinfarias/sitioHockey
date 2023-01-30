@@ -5,14 +5,16 @@
     margin: 0;
 }
 .titulo-principal{
-    color:#ecab0f;
+    color: black;
     text-align: center;
     font-size: 60px;
-    background-color: black;
+    width: 1190px;
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.424);
 }
 .banner{
-    height: 500px;
-    width: 1195px;
+    height: 480px;
+    width: 1190px;
     background-position: center;
 }
 .subtitulo{
@@ -20,30 +22,35 @@
     width: 1190px;
     color: white;   
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     background-color: black;
+    margin-top: 15px;
 }
 .links{
-    background-color: red;
     display: inline-block;
+    margin-left: 50px;
+    position: absolute;
+    font-size: 15px;
 }
-nav a{
+.links a{
     display: block;
+    margin: 35px;
 }
 #logo{
-    height: 200px;
-    width: 200px;
+    height: 190px;
+    width: 190px;
     left: 950px;
-    /*display: inline-block;*/
-    position: absolute;  z-index:2; left:1em; top:550px; opacity:5;
-    
+    bottom: 18px;
+    position: absolute;
 }
 .info{
-    background-color: blue;
     display: inline-block;
 }
-section h4, p{
+.info h4, p{
     display: block;
-    margin: 5px;
-
+    margin: 10px 0px 0px 300px;
+}
+.info h4{
+    font-style: oblique;
+    margin-top: 20px;
 }
