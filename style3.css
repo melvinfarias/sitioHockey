@@ -7,43 +7,37 @@
 header{
     display: flex;
     flex-direction: column;
+    background-image: url(./img/design1_image2.jpg);
+    background-repeat: no-repeat;
     width: 100%;
+    height: 500px;
     gap: 16px;
 }
 .main-home{
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap: 16px; 
 }
 .titulo-principal{
     color: black;
+    width: 100%;
     font-size: 60px;
     padding: 10px;
-    width: 1460px;
     position: absolute;
     background-color: #ecab0f;
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
 }
-.banner{
-    height: 580px;
-    width: 1460px;
-    background-position: center;
-    display: block;
-    display: flex;
-    border-bottom: 5px solid #ecab0f;
-}
 .links{
     display: flex;
     position: absolute;
     font-size: 20px;
     bottom: 500px;
-    left: 100px;
+    left: 50px;
     gap: 30px;
     flex-direction: column;
-    top: 150px;
+    top: 110px;
 }
 .links a{
     padding: 5px;
@@ -57,32 +51,32 @@ header{
 #logo{
     height: 120px;
     width: 150px;
-    left: 1200px;
-    top: 0px;
+    left: 85%;
     position:absolute;
 }
 .subtitulo{
     height: 53px;
-    width: 600px;
-    padding: 10px;
-    color: black;   
-    font-size: 30px;
+    width: 100%;
+    padding: 15px;
+    color: white;   
+    font-size: 28px;
     background-color: #ecab0f;
-    border: 3px solid gray;
     text-align: center;
     align-self: center;
 }
-.info h4, p{
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.info h4{
+padding: 3px;
+background-color: rgb(219, 219, 219);
 }
 .info{
-    width: 600px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(208, 208, 208);
+    width: 40%;
     background-color: whitesmoke;
-    border: 3px solid rgba(128, 128, 128, 0.202);
     align-self: center;
     text-indent: 20px;
+    margin: 3% 0% 3% 0%;
 }
 .main-about{
     display: flex;
@@ -90,18 +84,21 @@ header{
     width: 100%;
     gap: 16px;
 }
-.valores{
-    position: absolute;
-    width: 1460px;
+.valores dt{
+    width: 100%;
+    padding-left: 50px;
+    font-size: 18px;
+    background-color: rgb(195, 195, 195);
+    padding: 15px;
 }
-.img1{
+/* .img1{
     width: 380px;
     height: 210px;
     display: inline;
     margin-top: 150px;
     margin-left: 70px;
     border: 2px solid #ecab0f;
-}
+} */
 .rules{
     display: flex;
     flex-direction: column;
@@ -115,30 +112,47 @@ header{
 .info-contact{
     width: 100%;
     top: 700px;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
+}
+.imagen{
+    width: 150px;
+    height: 140px;
+    border-radius: 5%;
+}
+.img-contain{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 16px 0;
 }
 .rules h2{
     background-color: #ecab0f;
     color: white;
-    padding: 20px;
-    width: 1460px;
+    padding: 15px;
+    width: 100%;
     text-align: center;
+    font-size: 28px;
 }
 .rules h3{
     background-color: gray;
     color: white;
-    width: 1460px;
+    width: 100%;
     padding: 15px;
+    text-align: center;
+  
 }
 .regulations{
-    width: 1460px;
+    width: 100%;
     list-style: inside;
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    padding: 0% 5% 0% 5%;
 }
 .sportm{
-    width: 1460px;
+    width: 100%;
+    padding: 0% 5% 0% 5%;
+    gap: 10px;
 }
 #min-alfa{
     list-style-type: lower-latin;
@@ -149,23 +163,113 @@ span{
 }
 dt{
     font-weight: bold;
-    margin: 10px;
+    padding: 16px;
 }
-.linea{
-    height: 3px;
-    width: 1460px;
-    background-color: #ecab0f;
-    display: flex;
-    margin: auto;
-    margin-bottom: 5px;
-  }
 dd{
-    padding: 15px;
+    justify-content: center;
 }
 .main-rules{
     display: flex;
     flex-direction: column;
 }
-table{
-    border: 3px solid black;
+.games{
+    display: flex;
+    flex-direction: column;
 }
+table{
+    width: 60%;
+    align-self: center;
+    margin-top: 20px;
+    text-align: center;
+}
+.titulo-games{
+    width: 100%;
+    background-color: #ecab0f;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 28px;
+}
+.subtitulo-games{
+    background-color: gray;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    margin-top: 15px;
+    font-size: 20px;
+    text-align: center;
+    font-size: 23px;
+}
+ th, td {
+    width: 25%;
+ }
+ caption{
+    background-color: rgb(168, 165, 165);
+    color: white;
+    font-size: 20px;
+    font-style: oblique;
+ }
+ thead{
+    background-color: #ecab0f;
+    color: white;
+}
+.games-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.spam-games{
+    font-weight: bold;
+    color: black;
+}
+.datos-games{
+    display: flex;
+    gap: 450px;
+}
+.subtitulo-form{
+    width: 100%;
+    background-color: #ecab0f;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 28px;
+}
+h4, h3{
+    text-decoration: solid #ecab0f;
+    padding: 10px;
+    font-size: 20px;
+}
+.main-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+fieldset{
+    display: flex;
+    /* justify-content: center; */
+    gap: 35px;
+}
+.butom-form{
+    border: 2px solid  black;
+    background-color: #ecab0f;
+    color: white;
+    padding: 5px;
+    border-radius: 10%;
+    width: 60px;
+    align-items: center;
+}
+.form-contain{
+    display: flex;
+    background-color: whitesmoke;
+    width: 65%;
+    padding: 15px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.permission{
+    text-align: justify;
+}
+
